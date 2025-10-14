@@ -7,7 +7,7 @@
     chosen {
         // Ensure role is central at the DTS level for clarity (redundant with Kconfig)
         zmk,split-role = "central";
-    }
+    };
 };
 
 
