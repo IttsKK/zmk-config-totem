@@ -1,0 +1,13 @@
+/*
+ * Minimal overlay for TOTEM dongle shield.
+ * The dongle acts as split central and does not scan keys.
+ */
+
+/ {
+    chosen {
+        // Ensure role is central at the DTS level for clarity (redundant with Kconfig)
+        zmk,split-role = "central";
+    }
+};
+
+
