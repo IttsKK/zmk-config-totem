@@ -5,7 +5,6 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "../totem/totem.dtsi"
 
 / {
     // Provide a transform only; no kscan for dongle
@@ -23,7 +22,6 @@
 
     chosen {
         zmk,matrix_transform = &default_transform;
-        zmk,physical-layout = &default_layout;
         zmk,split-role = "central";
     };
 };
