@@ -1,7 +1,10 @@
 /*
  * Minimal overlay for TOTEM dongle shield.
- * The dongle acts as split central and does not scan keys.
+ * Reuse the TOTEM shield's matrix/kscan so the build has valid
+ * transform definitions, while setting split role to central.
  */
+
+#include "../totem/totem.dtsi"
 
 / {
     chosen {
